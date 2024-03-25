@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Nombres y Notas</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+
+<h2>Registro</h2>
+
+<form action="http://localhost:3000/register" id="loginForm"  method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required> <br><br>
+    <input type="submit" value="Enviar">
+</form>
+
+<a href="src/login.html" class="btn btn-verde">Login</a>
+
+<a href="https://github.com/FelipeForero21/registroeiniciodesesion" class="btn btn-verde">Ver Documentación</a>
+
+</body>
+</html>
